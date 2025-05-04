@@ -82,8 +82,8 @@ const ShopSidebar: React.FC<ShopSidebarProps> = ({ data }) => {
               className="transition-all hover:opacity-90"
             />
           </TwitterShareButton>
-          <Link legacyBehavior edinShareButton url={shareUrl} className="mx-1">
-            <Link legacyBehavior edinIcon
+          <LinkedinShareButton url={shareUrl} className="mx-1">
+            <LinkedinIcon
               size={25}
               round
               className="transition-all hover:opacity-90"
